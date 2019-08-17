@@ -7,6 +7,9 @@ call build_vars
 call src_get %srcdir% %libname%.ins.pas
 call src_get %srcdir% %libname%2.ins.pas
 
+call src_get %srcdir% %libname%_driver.h
+copya %libname%_driver.h (cog)lib/%libname%_driver.h
+
 call src_go %srcdir%
 call src_getfrom sys base.ins.pas
 call src_getfrom sys sys.ins.pas
