@@ -20,6 +20,6 @@ DEFINE_GUID(usbcan_guid,
   METHOD_BUFFERED, \
   FILE_ANY_ACCESS)
 
-#define FWID_STRING_SIZE (80) // maximum length of the firmware ID string
+#define FWID_STRING_SIZE (80)          // maximum length of the firmware ID string
 
 #endif
