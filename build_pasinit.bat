@@ -16,6 +16,7 @@ call src_getfrom sys sys.ins.pas
 call src_getfrom util util.ins.pas
 call src_getfrom string string.ins.pas
 call src_getfrom file file.ins.pas
+call src_getfrom pic pic.ins.pas
 call src_getfrom can can.ins.pas
 call src_getfrom can can3.ins.pas
 
