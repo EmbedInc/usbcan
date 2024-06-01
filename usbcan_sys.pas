@@ -9,7 +9,7 @@ define usbcan_sys_open_name;
 define usbcan_sys_read;
 define usbcan_sys_write;
 %include 'usbcan2.ins.pas';
-%include '(cog)lib/sys_sys2.ins.pas';
+%include 'sys_sys2.ins.pas';
 
 type
   conn_data_t = record                 {private data per device connection}

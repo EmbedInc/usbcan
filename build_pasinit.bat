@@ -10,12 +10,8 @@ call src_get %srcdir% %libname%2.ins.pas
 call src_get %srcdir% %libname%_driver.h
 copya %libname%_driver.h (cog)lib/%libname%_driver.h
 
-call src_go %srcdir%
-call src_getfrom sys base.ins.pas
-call src_getfrom sys sys.ins.pas
-call src_getfrom util util.ins.pas
-call src_getfrom string string.ins.pas
-call src_getfrom file file.ins.pas
+call src_getbase
+call src_getfrom sys sys_sys2.ins.pas
 call src_getfrom pic pic.ins.pas
 call src_getfrom can can.ins.pas
 call src_getfrom can can3.ins.pas
